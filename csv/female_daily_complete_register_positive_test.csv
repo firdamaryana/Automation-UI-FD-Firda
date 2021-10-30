@@ -1,0 +1,2 @@
+${test_number};${test_type};${email};${username};${password};${expected_display};${test_desc}
+0;P;firdamaryanaa@gmail.com;firdamaryana;12345678;;send valid email username and password

@@ -1,0 +1,4 @@
+${test_number};${test_type};${password_login};${expected_display};${test_desc}
+0;N;;Please enter your password;send blank password
+1;N;1234;The username and password you entered do not match. Do you want to reset your password?;send invalid password
+2;N; ;Please enter your password;send space password

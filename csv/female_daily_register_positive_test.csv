@@ -1,0 +1,7 @@
+${test_number};${test_type};${phone};${expected_display};${test_desc}
+0;P;08561736527;;send with early number 0856
+1;P;8561736527;;send with early number 856
+2;P;628561736527;;send with early number 62856
+3;P;6208561736527;;send with early number 620856
+4;P;+6208561736527;;send with early number +620
+5;P;+628561736527;;send with early number +62

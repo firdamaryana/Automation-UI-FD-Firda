@@ -1,0 +1,6 @@
+${test_number};${test_type};${phone};${expected_display};${test_desc}
+0;N;;Please enter your correct phone number;send blank phone number
+1;N;0;Please enter your correct phone number;send 0 phone number
+2;N;085617365270856;Please enter your correct phone number;send more than 15 character phone number
+3;N;abc123!@#;Please enter your correct phone number;send freetext phone number
+4;N;085716768792;Phone number has been registered;send existing phone number

@@ -1,0 +1,13 @@
+${test_number};${test_type};${email};${username};${password};${expected_display};${test_desc}
+0;N;;firdamaryana;12345678;Please enter your correct email;send blank email
+1;N;firdamaryanaa@gmail.c;firdamaryana;12345678;Please enter your correct email;send invalid format email
+2;N;firdamaryanaa@gmail.com.a;firdamaryana;12345678;Please enter your correct email;send invalid format email
+3;N;firdamaryanaa12()#@gmail.com;firdamaryana;12345678;Please enter your correct email;send invalid format email
+4;N;@gmail.com;firdamaryana;12345678;Please enter your correct email;send invalid format email
+5;N;firdamaryanaa@gmail.com;;12345678;Username should be 3-25 characters in length;send blank username
+6;N;firdamaryanaa@gmail.com;firdamaryanasemogalulustest;12345678;Username should be 3-25 characters in length;send more than 25 characters username
+7;N;firdamaryanaa@gmail.com;abc123!@#;12345678;Please enter your correct username;send freetext username
+8;N;firdamaryanaa@gmail.com;firda maryana;12345678;Please enter your correct username;send space username
+9;N;firdamaryanaa@gmail.com;firdamaryanaa;;Password should be 6-25 characters in length;send blank password
+10;N;firdamaryanaa@gmail.com;firdamaryanaa;firdamaryanasemogalulustest;Password should be 6-25 characters in length;send more than 25 characters password
+11;N;firdamaryanaa@gmail.com;firdamaryana;firda maryana;Password should be 6-25 characters in length;send space password

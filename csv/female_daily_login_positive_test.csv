@@ -1,0 +1,2 @@
+${test_number};${test_type};${password_login};${expected_display};${test_desc}
+0;P;12345678;;send valid password
